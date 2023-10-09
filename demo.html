@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            .wrapper{
+                height: 450px;
+                width: 450px;
+                border-radius: 30%;
+                overflow: hidden;
+                border: 6px solid #fff;
+            }
+            .wrapper img{
+                height: 100%;
+                width: 100%;
+                border-radius: 30%;
+                filter: grayscale(100%);
+                transition: 0.5s ease;
+                cursor: pointer;
+            }
+            .wrapper img:hover{
+                transform: scale(1.3);
+                filter: grayscale(0%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <img src="myphoto.jpg">
+        </div>
+    </body>
+</html>
